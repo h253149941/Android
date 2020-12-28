@@ -1,4 +1,4 @@
-package com.example.xhh.ui.dashboard.model
+package com.example.xhh.ui.game.model
 
 import java.io.Serializable
 class Card (private var suit: String, private var rank: String, var isChosen:Boolean = false, var isMatched:Boolean = false): Serializable  {

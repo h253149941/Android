@@ -1,4 +1,4 @@
-package com.example.xhh.ui.dashboard
+package com.example.xhh.ui.game
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xhh.R
-import com.example.xhh.ui.dashboard.model.CardMatchingGame
+import com.example.xhh.ui.game.model.CardMatchingGame
 
 class CardRecyclerViewAdapter(val game: CardMatchingGame):RecyclerView.Adapter<CardRecyclerViewAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

@@ -1,4 +1,4 @@
-package com.example.xhh.ui.dashboard
+package com.example.xhh.ui.game
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -12,23 +12,23 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xhh.R
-import com.example.xhh.ui.dashboard.model.CardMatchingGame
+import com.example.xhh.ui.game.model.CardMatchingGame
 import java.io.ObjectInputStream
 import java.io.ObjectOutputStream
 import java.lang.Exception
 
 const val gameFile = "gameFile"
-class DashboardFragment : Fragment() {
+class GameFragment : Fragment() {
 
     val cardButtons = mutableListOf<Button>()
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var dashboardViewModel: GameViewModel
     lateinit var adapter: CardRecyclerViewAdapter
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_dashboard, container, false)
+        return inflater.inflate(R.layout.fragment_game, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -104,6 +104,6 @@ class DashboardFragment : Fragment() {
 
     companion object {
         lateinit var game: CardMatchingGame
-        fun newInstance() = DashboardFragment()
+        fun newInstance() = GameFragment()
     }
 }

@@ -1,4 +1,4 @@
-package com.example.xhh.ui.dashboard.model
+package com.example.xhh.ui.game.model
 
 import java.util.Random
 

@@ -1,10 +1,8 @@
-package com.example.xhh.ui.home
+package com.example.xhh.ui.chat
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class ChatViewModel : ViewModel() {
 
 //    private val _text = MutableLiveData<String>().apply {
 //        value = "This is home Fragment"

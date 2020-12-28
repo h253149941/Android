@@ -1,4 +1,4 @@
-package com.example.xhh.ui.notifications.weather
+package com.example.xhh.ui.weather.weather
 
 data class Yesterday(
     val aqi: Int,

@@ -1,4 +1,4 @@
-package com.example.xhh.ui.notifications
+package com.example.xhh.ui.weather
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,13 +7,13 @@ import android.widget.ArrayAdapter
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.xhh.R
-import com.example.xhh.ui.notifications.weather.Forecast
-import com.example.xhh.ui.notifications.weather.Weather
+import com.example.xhh.ui.weather.weather.Forecast
+import com.example.xhh.ui.weather.weather.Weather
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.activity_main2.*
 
-class MainActivity2 : AppCompatActivity() {
+class Weather_MainActivity2 : AppCompatActivity() {
 
     val baseURL = "http://t.weather.itboy.net/api/weather/city/"
     override fun onCreate(savedInstanceState: Bundle?) {

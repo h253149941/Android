@@ -1,4 +1,4 @@
-package com.example.xhh.ui.notifications
+package com.example.xhh.ui.weather
 
 data class City (
     val area_code: String,

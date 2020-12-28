@@ -1,10 +1,9 @@
-package com.example.xhh.ui.notifications
+package com.example.xhh.ui.weather
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import com.example.xhh.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -12,7 +11,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import kotlin.concurrent.thread
 
-class NotificationsViewModel(application: Application) : AndroidViewModel(application) {
+class WeatherViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _cities: MutableLiveData<List<City>> = MutableLiveData()
 

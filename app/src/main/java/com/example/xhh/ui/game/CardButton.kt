@@ -1,4 +1,4 @@
-package com.example.xhh.ui.dashboard
+package com.example.xhh.ui.game
 
 import android.content.Context
 import android.util.AttributeSet
